@@ -6,9 +6,9 @@ Escolha uma opção
 ==================================
 
 0 - Sair
-1 - Cadastre filmes
+1 - Cadastrar filmes
 2 - listar filmes
 3 - Calcular média
-4 - Filtrar filmes por não vistos
+4 - Filtrar por filmes não vistos
 `
 );
