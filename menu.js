@@ -76,4 +76,11 @@ if ( escolha === 0 )  {
     }
 
     filmes.push(novoFilme)
+} else if (escolha === 2) {
+    ct = 0
+    for (filme of filmes) {
+        nomeFilme = filmes[ct].nome
+        console.log(nomeFilme)
+        ct += 1
+    }
 }
