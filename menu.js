@@ -1,4 +1,5 @@
 import filmes from './db';
+import { cadastrarFilme } from './functions';
 
 var prompt = require('prompt-sync')();
 
@@ -21,5 +22,5 @@ if ( escolha === 0 )  {
     console.log("Aplicação fechada")
 
 } else if ( escolha === 1 ) {
-
+    cadastrarFilme(filmes)
 }
