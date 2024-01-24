@@ -1,3 +1,4 @@
+import filmes from './db';
 
 var prompt = require('prompt-sync')();
 
