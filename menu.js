@@ -23,7 +23,7 @@ Escolha uma opção
 `
 );
 
-const escolha = prompt(" ")
+const escolha = Number(prompt(" "))
 
 if ( escolha === 0 )  {
     console.log("Aplicação fechada")
