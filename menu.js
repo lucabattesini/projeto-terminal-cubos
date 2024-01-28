@@ -51,4 +51,10 @@ if ( escolha === 0 )  {
         console.log(nomeFilme)
         ct += 1
     }
+} else if ( escolha === 3 ) {
+
+} else if ( escolha === 4 ) {
+
+} else {
+    
 }
