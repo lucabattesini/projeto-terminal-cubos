@@ -47,7 +47,11 @@ if ( escolha === 0 )  {
 } else if (escolha === 2) {
     console.table(filmes)
 } else if ( escolha === 3 ) {
-
+    notaRottenTomatos = filmes.rottenTomato
+    notaImdb = filmes.imdb
+    somaNotas = notaRottenTomatos + notaImdb
+    mediaNotas = somaNotas / 2
+    console.log("A média das notas é " + mediaNotas)
 } else if ( escolha === 4 ) {
 
 } else {
