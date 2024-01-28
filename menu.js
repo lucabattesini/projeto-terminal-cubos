@@ -10,7 +10,7 @@ const filmes = [
 ];
 
 
-const escolha = Number(prompt(`
+console.log(`
 Escolha uma opção
 
 ==================================
@@ -21,7 +21,9 @@ Escolha uma opção
 3 - Calcular média
 4 - Filtrar por filmes não vistos
 `
-));
+);
+
+const escolha = prompt(" ")
 
 if ( escolha === 0 )  {
     console.log("Aplicação fechada")
