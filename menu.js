@@ -68,6 +68,6 @@ if ( escolha === 0 )  {
             console.log(filmesAssistido)
         }
     }
-} else {
+} else if ( escolha > 4 ) {
     console.log("Escolha invalida")
 }
