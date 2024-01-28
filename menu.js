@@ -69,5 +69,5 @@ if ( escolha === 0 )  {
         }
     }
 } else {
-
+    console.log("Escolha invalida")
 }
