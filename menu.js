@@ -2,7 +2,7 @@ var prompt = require('prompt-sync')();
 
 const filmes = [
     {
-    nome: "Pequeno príncipe",
+    nome: "Pequeno principe",
     rottenTomato: 8.6,
     imdb: 9.6,
     assistido: "n"
@@ -64,8 +64,8 @@ if ( escolha === 0 )  {
     }
 } else if ( escolha === 4 ) {
     for ( item of filmes ){
-        if ( item.assistido === n ) {
-            console.log(filmesAssistido)
+        if ( item.assistido === 'n' ) {
+            console.table(item)
         }
     }
 } else if ( escolha > 4 ) {
