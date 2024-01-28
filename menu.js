@@ -3,11 +3,9 @@ var prompt = require('prompt-sync')();
 const filmes = [
     {
     nome: "Pequeno príncipe",
-    nota: {
-        rottenTomato: 8.6,
-        imdb: 9.6
-    },
-     assistido: "não"
+    rottenTomato: 8.6,
+    imdb: 9.6,
+    assistido: "não"
     }
 ];
 
