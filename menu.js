@@ -45,16 +45,11 @@ if ( escolha === 0 )  {
 
     filmes.push(novoFilme)
 } else if (escolha === 2) {
-    ct = 0
-    for (filme of filmes) {
-        nomeFilme = filmes[ct].nome
-        console.log(nomeFilme)
-        ct += 1
-    }
+    console.table(filmes)
 } else if ( escolha === 3 ) {
 
 } else if ( escolha === 4 ) {
 
 } else {
-    
+
 }
