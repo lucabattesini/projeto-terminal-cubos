@@ -46,12 +46,22 @@ if ( escolha === 0 )  {
     filmes.push(novoFilme)
 } else if (escolha === 2) {
     console.table(filmes)
+
 } else if ( escolha === 3 ) {
-    notaRottenTomatos = filmes.rottenTomato
-    notaImdb = filmes.imdb
-    somaNotas = notaRottenTomatos + notaImdb
-    mediaNotas = somaNotas / 2
-    console.log("A média das notas é " + mediaNotas)
+    const nomeFilmeEscolhido =  prompt("Digite o nome do filme desejado: ")
+
+    for ( filme of filmes ) {
+        if ( filme === nomeFilmeEscolhido ) {
+            notaRottenTomatos = filmes.rottenTomato
+            notaImdb = filmes.imdb
+            somaNotas = notaRottenTomatos + notaImdb
+            mediaNotas = somaNotas / 2
+
+            console.log("A média das notas é " + mediaNotas)
+
+            break
+        }
+    }
 } else if ( escolha === 4 ) {
 
 } else {
