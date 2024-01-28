@@ -36,10 +36,8 @@ while (true) {
 
         const novoFilme = {
             nome: nomeNovoFilme,
-            nota: {
-                rottenTomato: rottenTomatoNovoFilme,
-                imdb: imdbNovoFilme
-            },
+            rottenTomato: rottenTomatoNovoFilme,
+            imdb: imdbNovoFilme,
             assistido: assistidoNovoFilme
         }
 
@@ -71,4 +69,5 @@ while (true) {
     } else if ( escolha > 4 ) {
         console.log("Escolha invalida")
     }
+    prompt("Aperte se deseja continuar")
 }
