@@ -5,7 +5,7 @@ const filmes = [
     nome: "Pequeno príncipe",
     rottenTomato: 8.6,
     imdb: 9.6,
-    assistido: "não"
+    assistido: "n"
     }
 ];
 
@@ -50,10 +50,10 @@ if ( escolha === 0 )  {
 } else if ( escolha === 3 ) {
     const nomeFilmeEscolhido =  prompt("Digite o nome do filme desejado: ")
 
-    for ( filme of filmes ) {
-        if ( filme === nomeFilmeEscolhido ) {
-            notaRottenTomatos = filmes.rottenTomato
-            notaImdb = filmes.imdb
+    for ( item of filmes ) {
+        if ( item.nome === nomeFilmeEscolhido ) {
+            notaRottenTomatos = item.rottenTomato
+            notaImdb = item.imdb
             somaNotas = notaRottenTomatos + notaImdb
             mediaNotas = somaNotas / 2
 
@@ -63,7 +63,11 @@ if ( escolha === 0 )  {
         }
     }
 } else if ( escolha === 4 ) {
-
+    for ( item of filmes ){
+        if ( item.assistido === n ) {
+            console.log(filmesAssistido)
+        }
+    }
 } else {
 
 }
