@@ -26,7 +26,7 @@ while (true) {
     const escolha = Number(prompt(" "))
 
     if ( escolha === 0 )  {
-        console.log("Aplicação fechada")
+        break
 
     } else if ( escolha === 1 ) {
         const nomeNovoFilme = prompt("Digite o nome do filme: ");
