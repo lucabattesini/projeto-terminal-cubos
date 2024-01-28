@@ -64,14 +64,17 @@ while (true) {
                 break
             }
         }
+        
     } else if ( escolha === 4 ) {
         for ( item of filmes ){
             if ( item.assistido === 'n' ) {
                 console.table(item)
             }
         }
+
     } else if ( escolha > 4 ) {
         console.log("Escolha invalida")
+
     }
     prompt("Aperte se deseja continuar")
 }
