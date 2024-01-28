@@ -33,6 +33,10 @@ while (true) {
         const rottenTomatoNovoFilme = Number(prompt("Digite a nota do filme no Rotten Tomato: "));
         const imdbNovoFilme = Number(prompt("Digite a nota do filme no Imdb: "));
         const assistidoNovoFilme = prompt("Você já assistiu este filme? [s/n]: ");
+        if (assistidoNovoFilme !== "s" && assistidoNovoFilme !== "n") {
+            console.log("escolha invalida")
+            continue
+        }
 
         const novoFilme = {
             nome: nomeNovoFilme,
